@@ -7,30 +7,42 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <title>Portfolio</title> 
     </head>
+    <!-- header, a section and a footer -->
     <body>
+
+      <!-- 1 div with a heading and 1 nav with 3 divs-->      
       <header>  
         <div id="name"> <h1>Alma Sotelo</h1></div>
-        <section>
+        
           <nav id=clickables>
-           <a href="About.css"> Contact</a> 
-           <div class="separator"> </div>     
+           <a href="Contact.css"> Contact</a> 
+           <div class="separators">|</div>       
            <a href="Portfolio.css">Portfolio</a>
-           <div class="separator"> </div>
-           <a href="Contact.css" >Contact</a>
-           <div class="separator"> </div>
-          </nav>
-        </section>    
+           <div class="separators">|</div>
+           <a href="About.css" > About</a>
+          </nav>           
       </header>
-  
-      <section id="contain">
-        <div id="AboutMe"><h2>About Me</h2></div>
-        <img id="Picture" href="assets/images/vestidoazul2.jpg" alt="Profile Picture" width="250px" height="250px">
-        <p id="par1">I born in Mexico, where I earned a Bachelor's Debree in Industrial Engineer. I emigrated to USA years ago, and have took some courses in Bussines Administration.</p><br>
-        <p id="par2">I have more than 7 years experience working as an office manager. I had a job consisting in running the Humand and Safety Department; interpreting and translating spoken and written English/Spanish, imparting Safety trainings in both languages, editing training material, etc. </p><br>
-        <p id="par3">Also, I have an expert in the use of Excel, and very familiar with other softwares. Currently, I'm a student in a Coding Boot Camp.</p>
+      
+                       <!------- below the header ------>
+      
+      <img id="pattern" src="assets/images/gravel.png">
+      
+      <!-- a block with subtitle, picture, and paragraphs-->
+
+      <section id="container">
+        <div id="AboutMe"><h1>About Me</h1></div>
+        <!-- separating with a line the subtitle AboutMe from the image and parragraphs -->
+        <hr  style="height:1px;border-width:0;background-color:#cccccc">
+
+        <!-- an image inside a paragragh -->        
+                <p><img id="picture" src="assets/images/vestidoazul2.jpg" alt="Profile Picture" width="200px" height="200px"><br>I born in Mexico, where I earned a Bachelor's Debree in Industrial Engineer. I emigrated to USA years ago, and have took some courses in Bussines Administration.</p>               
+                <p>I have experience working as an office manager. I had a job consisting in running the HR and Safety Departments where I imparted Safety trainings in both languages (English/Spanish), editing training material, etc.</p>
+                <p>Also, I am an expert in the use of Excel, and very familiar with other softwares. Currently, I'm a student in a Coding Boot Camp.... Changing carriers is exiting!!</p>  
       </section>    
+      
       <footer>
           Copyright ©
       </footer>
+    
     </body>
 </html>
