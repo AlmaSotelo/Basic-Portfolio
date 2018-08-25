@@ -343,7 +343,7 @@
     /* preparing relation to ancestor position to give a determined position */
     position:relative;
     /* position given */
-    left:27%; /* using % ensure visibility when changes in the viwerport */  
+    left:27.8%; /* using % ensure visibility when changes in the viwerport */  
     /* preparing to add padding and no moving the given height */
     box-sizing: border-box;
     /* pushing the letters up */
@@ -356,20 +356,20 @@
    position:relative;
    /* given position */
    top:25px;
-   right:27%; /* using % ensure visibility when changes in the viwerport */  
+   right:28%; /* using % ensure visibility when changes in the viwerport */  
 }
   #portfoliocontainer {
    /* required by instruccions */
    background-color: #ffffff;
    border:2px solid #dddddd;
    color: #4aaa;
-   width:650px;
+   width:640px;
    /* put it at center position (hor & ver) in relation to <body> */
    margin:0 auto;
    /* preparing to add padding without moving the given size */
    box-sizing: border-box;         
    /* given size to get aparience closer to the model */
-   height: 580px;    
+   height: 600px;    
    /* it is needed to put it in front of pattern but I don't yet understand why */
    position:relative;
    /* to have space between the border and the inside contain */
@@ -377,7 +377,52 @@
    /* to make it farther from the header and the footer */
    margin-top:30px;
    margin-bottom:50px;    
-}  
+} 
+.strip {
+    
+    background-color:#4aaaa5;
+    line-height:40px;
+    position:absolute;
+    bottom:25px;
+    width:190px;
+    color:#ffffff;
+    text-align: center;
+    opacity:1;
+
+} 
+
+
+.ip {
+    position:relative;
+    margin-right:30px;
+    margin-bottom:35px;
+    float:left;
+}   
+ #p {
+    position:relative;
+    float:left; 
+}
+    
+#b {
+    float:left;    
+    position:relative;
+}
+#r {
+    float:left;    
+    position:relative;
+}
+
+
+#h {
+    float:left;
+    position:relative;
+}
+
+#w {
+    float:left;
+    position:relative;  
+}
+
 
   
 
