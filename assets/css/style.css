@@ -279,4 +279,106 @@
     bottom:0;
     left:0;    
  }
+                 /* for Contact page */ 
+ 
+ #contact {
+    /* to reset the precedent flowing */
+    clear:both;
+    /* text color required by instruccions */    
+    color:#4aaaa5;
+    /* for the aparience */
+    line-height: 20px; 
+ }
+ 
+ /* for the elements inside the form */
+ form {
+    box-sizing: border-box;
+    display:block;
+    margin-top:0em;
+    width:960px;
+    line-height: 30px;
+    font-size: 20px;
+    padding-top:10px;
+    color:#363536e5
 
+ }
+
+ .inputbox {
+    font-size:16px;
+    width: 916px;
+    color:#363536e5;
+     
+ }
+ 
+ #messagebox {
+     width:916px;
+     height:150px;
+     color:#363536e5;
+
+ }
+
+ #submitbutton {
+    border:1px solid #666666;
+    color:#dddddd;
+    font-size:16px;
+    background-color: #4aaaa5;
+    width:100px;
+    height:30px;
+    margin-top:20px;
+
+ }
+               /* for portfolio page */
+                         
+#namep {
+ /* required by instruccions */   
+    background-color:#4aaaa5;
+    font-family: Georgia,Times,Times,New-Roman,serif;
+    color:#ffffff;
+    /* to acomodate layout aparience */
+    width:250px;
+    height: 70px;
+    text-align: center;
+    /* to make room for #clickables */  
+    float:left;
+    /* preparing relation to ancestor position to give a determined position */
+    position:relative;
+    /* position given */
+    left:27%; /* using % ensure visibility when changes in the viwerport */  
+    /* preparing to add padding and no moving the given height */
+    box-sizing: border-box;
+    /* pushing the letters up */
+    padding-bottom:6px;    
+ }
+ #clickablesport {
+    /* required by instruccions */ 
+   color:#777777;
+   /* to prepare it for top and right positions */      
+   position:relative;
+   /* given position */
+   top:25px;
+   right:27%; /* using % ensure visibility when changes in the viwerport */  
+}
+  #portfoliocontainer {
+   /* required by instruccions */
+   background-color: #ffffff;
+   border:2px solid #dddddd;
+   color: #4aaa;
+   width:650px;
+   /* put it at center position (hor & ver) in relation to <body> */
+   margin:0 auto;
+   /* preparing to add padding without moving the given size */
+   box-sizing: border-box;         
+   /* given size to get aparience closer to the model */
+   height: 580px;    
+   /* it is needed to put it in front of pattern but I don't yet understand why */
+   position:relative;
+   /* to have space between the border and the inside contain */
+   padding:20px;
+   /* to make it farther from the header and the footer */
+   margin-top:30px;
+   margin-bottom:50px;    
+}  
+
+  
+
+ 
