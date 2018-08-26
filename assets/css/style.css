@@ -3,6 +3,7 @@
     font-family:Arial,Helvetica-Neue,Helvetica,sans-serif;
     /* to get rid of the default margins */
     margin:0px;
+    background-image: url("../images/gravel.png");
  }
 
  header {
@@ -69,16 +70,6 @@
  }
 
  /* Background pattern from Toptal Subtle Patterns */
- #pattern {
-    /* to ensure takes the whole width of the <body> */
-    width:100%;
-    /* to centere it (hor & ver) in <body> */
-    margin:0 auto;
-    /* given height to cover the space behind #container */    
-    height: 700px;
-    /* needed it to keep it behind #container */
-    position:absolute;
- }
 
  #container {
     /* required by instruccions */
@@ -91,7 +82,7 @@
     /* preparing to add padding without moving the given size */
     box-sizing: border-box;         
     /* given size to get aparience closer to the model */
-    height: 500px;    
+    height: 575px;    
     /* it is needed to put it in front of pattern but I don't yet understand why */
     position:relative;
     /* to have space between the border and the inside contain */
@@ -99,189 +90,48 @@
     /* to make it farther from the header and the footer */
     margin-top:30px;
     margin-bottom:50px;    
- }
-
- #AboutMe {
-    /* to reset the precedent flowing */
-    clear:both;
-    /* text color required by instruccions */    
-    color:#4aaaa5;
-    /* for the aparience */
-    line-height: 20px; 
- }
-
- #picture {
-    /* to make room for <p> in the same line */
-    float:left;
-    /* to separate it from <p> */
-    margin-right: 20px;
- }
-
- /* for the aparience */
- p {
-   line-height: 30px;
- }
-
- footer {
-    /* to ensure it covers the entire width of the <body> */
-    width:100%;
-     /* required by instruccions */ 
-    background-color: #666666;
-    border-top:5px solid #4aaaa5; 
-     /* for aparience */ 
-    text-align: center;
-    color:#dddddd;
-    font-size:10px;
-    padding-top:30px;
-    padding-bottom:5px;       
-    /* Keeping it at the bottom of the <body>*/
-    position:absolute;
-    bottom:0;
-    left:0;    
- } body {
-    /* required by instruccions */    
-    font-family:Arial,Helvetica-Neue,Helvetica,sans-serif;
-    /* to get rid of the default margins */
-    margin:0px;
- }
-
- header {
-    /* to ensure it covers the entire width of the <body> */
-    width:100%;
-    /* to get rid of the default top margin */
-    margin-top:0px;
-    /* required by instruccions */    
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;    
-    /* to acomodate layout aparience*/
-    height: 70px;      
- }
-
- #name {
-     /* required by instruccions */   
-    background-color:#4aaaa5;
-    font-family: Georgia,Times,Times,New-Roman,serif;
-    color:#ffffff;
-     /* to acomodate layout aparience */
-    width:250px;
-    height: 70px;
-    text-align: center;
-     /* to make room for #clickables */  
-    float:left;
-    /* preparing relation to ancestor position to give a determined position */
-    position:relative;
-    /* position given */
-    left:17%; /* using % ensure visibility when changes in the viwerport */  
-    /* preparing to add padding and no moving the given height */
-    box-sizing: border-box;
-    /* pushing the letters up */
-    padding-bottom:6px;    
- }
-
- #clickables {
-       /* required by instruccions */ 
-      color:#777777;
-      /* to prepare it for top and right positions */      
-      position:relative;
-      /* given position */
-      top:25px;
-      right:15%; /* using % ensure visibility when changes in the viwerport */  
- }
-
-    a { 
-        /* per model */
-        color:#777777;
-        /* to get rid of default underline */
-        text-decoration:none;
-        /* to take position at the right of each vertical bar */
-        float:right;
-        /* to center ir vertically */
-        padding:4px;
- }
-    .separators {
-        color:gray;
-        height:32px;
-        width:1px;
-        /* to take position at the right */
-        float:right;
-
- /* ------- below the header ------ */
- }
-
- /* Background pattern from Toptal Subtle Patterns */
- #pattern {
-    /* to ensure takes the whole width of the <body> */
-    width:100%;
-    /* to centere it (hor & ver) in <body> */
-    margin:0 auto;
-    /* given height to cover the space behind #container */    
-    height: 700px;
-    /* needed it to keep it behind #container */
-    position:absolute;
- }
-
- #container {
-    /* required by instruccions */
-    background-color: #ffffff;
-    border:2px solid #dddddd;
-    color: #777777;
-    width:960px;
-    /* put it at center position (hor & ver) in relation to <body> */
-    margin:0 auto;
-    /* preparing to add padding without moving the given size */
-    box-sizing: border-box;         
-    /* given size to get aparience closer to the model */
-    height: 500px;    
-    /* it is needed to put it in front of pattern but I don't yet understand why */
-    position:relative;
-    /* to have space between the border and the inside contain */
-    padding:20px;
-    /* to make it farther from the header and the footer */
-    margin-top:30px;
-    margin-bottom:50px;    
- }
-
- #AboutMe {
-    /* to reset the precedent flowing */
-    clear:both;
-    /* text color required by instruccions */    
-    color:#4aaaa5;
-    /* for the aparience */
-    line-height: 20px; 
- }
-
- #picture {
-    /* to make room for <p> in the same line */
-    float:left;
-    /* to separate it from <p> */
-    margin-right: 20px;
- }
-
- /* for the aparience */
- p {
-   line-height: 30px;
- }
-
- footer {
-    /* to ensure it covers the entire width of the <body> */
-    width:100%;
-     /* required by instruccions */ 
-    background-color: #666666;
-    border-top:5px solid #4aaaa5; 
-     /* for aparience */ 
-    text-align: center;
-    color:#dddddd;
-    font-size:10px;
-    padding-top:30px;
-    padding-bottom:5px;       
-    /* Keeping it at the bottom of the <body>*/
-    position:absolute;
-    bottom:0;
-    left:0;    
- }
-                 /* for Contact page */ 
+ } 
  
- #contact {
+
+ #AboutMe {
+    /* to reset the precedent flowing */
+    clear:both;
+    /* text color required by instruccions */    
+    color:#4aaaa5;
+    /* for the aparience */
+    line-height: 20px; 
+ }
+
+ #picture {
+    /* to make room for <p> in the same line */
+    float:left;
+    /* to separate it from <p> */
+    margin-right: 20px;
+ }
+
+ /* for the aparience */
+ p {
+   line-height: 30px;
+ }
+
+ footer {
+    
+    /* to ensure it covers the entire width of the <body> */
+    width:100%;
+   
+     /* required by instruccions */ 
+    background-color: #666666;
+    border-top:5px solid #4aaaa5; 
+     /* for aparience */ 
+    text-align: center;
+    color:#dddddd;
+    font-size:10px;
+    padding-top:40px;
+    padding-bottom:10px;       
+ }
+
+ 
+    #contact {
     /* to reset the precedent flowing */
     clear:both;
     /* text color required by instruccions */    
@@ -312,7 +162,7 @@
  
  #messagebox {
      width:916px;
-     height:150px;
+     height:220px;
      color:#363536e5;
 
  }
@@ -336,7 +186,7 @@
     color:#ffffff;
     /* to acomodate layout aparience */
     width:250px;
-    height: 70px;
+    height: 60px;
     text-align: center;
     /* to make room for #clickables */  
     float:left;
@@ -362,14 +212,14 @@
    /* required by instruccions */
    background-color: #ffffff;
    border:2px solid #dddddd;
-   color: #4aaa;
-   width:640px;
+   color: #4aaaa5;
+   width:680px;
    /* put it at center position (hor & ver) in relation to <body> */
    margin:0 auto;
    /* preparing to add padding without moving the given size */
    box-sizing: border-box;         
    /* given size to get aparience closer to the model */
-   height: 600px;    
+   height: 575px;    
    /* it is needed to put it in front of pattern but I don't yet understand why */
    position:relative;
    /* to have space between the border and the inside contain */
@@ -378,6 +228,7 @@
    margin-top:30px;
    margin-bottom:50px;    
 } 
+
 .strip {
     
     background-color:#4aaaa5;
@@ -387,7 +238,7 @@
     width:190px;
     color:#ffffff;
     text-align: center;
-    opacity:1;
+    
 
 } 
 
@@ -398,32 +249,8 @@
     margin-bottom:35px;
     float:left;
 }   
- #p {
+.images {
     position:relative;
     float:left; 
 }
     
-#b {
-    float:left;    
-    position:relative;
-}
-#r {
-    float:left;    
-    position:relative;
-}
-
-
-#h {
-    float:left;
-    position:relative;
-}
-
-#w {
-    float:left;
-    position:relative;  
-}
-
-
-  
-
- 
